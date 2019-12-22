@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,18 @@
 		7609368F23B0195D00C5C529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7609368D23B0195D00C5C529 /* Main.storyboard */; };
 		7609369123B0195F00C5C529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7609369023B0195F00C5C529 /* Assets.xcassets */; };
 		7609369423B0195F00C5C529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7609369223B0195F00C5C529 /* LaunchScreen.storyboard */; };
+		761C07EE23B01B32001CD382 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761C07E923B01B32001CD382 /* Category.swift */; };
+		761C07EF23B01B32001CD382 /* Clues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761C07EA23B01B32001CD382 /* Clues.swift */; };
+		761C07F023B01B32001CD382 /* Clue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761C07EB23B01B32001CD382 /* Clue.swift */; };
+		761C07F123B01B32001CD382 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761C07EC23B01B32001CD382 /* Categories.swift */; };
+		761C07F223B01B32001CD382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761C07ED23B01B32001CD382 /* SceneDelegate.swift */; };
+		761C07F523B01B3D001CD382 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761C07F323B01B3D001CD382 /* SplashScreenViewController.swift */; };
+		761C07F623B01B3D001CD382 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761C07F423B01B3D001CD382 /* QuestionsViewController.swift */; };
+		821DB17AFDC176EF4DC26C5F /* Pods_JeopadryTrainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F855456C0B9006ECB78278 /* Pods_JeopadryTrainer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66947B9D7BD4EBAFEE0C1039 /* Pods-JeopadryTrainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeopadryTrainer.release.xcconfig"; path = "Target Support Files/Pods-JeopadryTrainer/Pods-JeopadryTrainer.release.xcconfig"; sourceTree = "<group>"; };
 		7609368623B0195D00C5C529 /* JeopadryTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeopadryTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7609368923B0195D00C5C529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7609368B23B0195D00C5C529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		7609369023B0195F00C5C529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7609369323B0195F00C5C529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7609369523B0195F00C5C529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761C07E923B01B32001CD382 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = "../../../JeopardyTrainer-master/JeopardyTrainer/Category.swift"; sourceTree = "<group>"; };
+		761C07EA23B01B32001CD382 /* Clues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Clues.swift; path = "../../../JeopardyTrainer-master/JeopardyTrainer/Clues.swift"; sourceTree = "<group>"; };
+		761C07EB23B01B32001CD382 /* Clue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Clue.swift; path = "../../../JeopardyTrainer-master/JeopardyTrainer/Clue.swift"; sourceTree = "<group>"; };
+		761C07EC23B01B32001CD382 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Categories.swift; path = "../../../JeopardyTrainer-master/JeopardyTrainer/Categories.swift"; sourceTree = "<group>"; };
+		761C07ED23B01B32001CD382 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../JeopardyTrainer-master/JeopardyTrainer/SceneDelegate.swift"; sourceTree = "<group>"; };
+		761C07F323B01B3D001CD382 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashScreenViewController.swift; path = "../../../JeopardyTrainer-master/JeopardyTrainer/SplashScreenViewController.swift"; sourceTree = "<group>"; };
+		761C07F423B01B3D001CD382 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionsViewController.swift; path = "../../../JeopardyTrainer-master/JeopardyTrainer/QuestionsViewController.swift"; sourceTree = "<group>"; };
+		9866BA5F45DCA1E810BA624A /* Pods-JeopadryTrainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JeopadryTrainer.debug.xcconfig"; path = "Target Support Files/Pods-JeopadryTrainer/Pods-JeopadryTrainer.debug.xcconfig"; sourceTree = "<group>"; };
+		E0F855456C0B9006ECB78278 /* Pods_JeopadryTrainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JeopadryTrainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821DB17AFDC176EF4DC26C5F /* Pods_JeopadryTrainer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				7609368823B0195D00C5C529 /* JeopadryTrainer */,
 				7609368723B0195D00C5C529 /* Products */,
+				E35CC9A699E316BFF564A6C0 /* Pods */,
+				E96C8CC6295EACD128495A4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +76,37 @@
 			isa = PBXGroup;
 			children = (
 				7609368923B0195D00C5C529 /* AppDelegate.swift */,
+				761C07EC23B01B32001CD382 /* Categories.swift */,
+				761C07E923B01B32001CD382 /* Category.swift */,
+				761C07EB23B01B32001CD382 /* Clue.swift */,
+				761C07EA23B01B32001CD382 /* Clues.swift */,
+				761C07ED23B01B32001CD382 /* SceneDelegate.swift */,
 				7609368B23B0195D00C5C529 /* ViewController.swift */,
+				761C07F423B01B3D001CD382 /* QuestionsViewController.swift */,
+				761C07F323B01B3D001CD382 /* SplashScreenViewController.swift */,
 				7609368D23B0195D00C5C529 /* Main.storyboard */,
 				7609369023B0195F00C5C529 /* Assets.xcassets */,
 				7609369223B0195F00C5C529 /* LaunchScreen.storyboard */,
 				7609369523B0195F00C5C529 /* Info.plist */,
 			);
 			path = JeopadryTrainer;
+			sourceTree = "<group>";
+		};
+		E35CC9A699E316BFF564A6C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9866BA5F45DCA1E810BA624A /* Pods-JeopadryTrainer.debug.xcconfig */,
+				66947B9D7BD4EBAFEE0C1039 /* Pods-JeopadryTrainer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E96C8CC6295EACD128495A4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0F855456C0B9006ECB78278 /* Pods_JeopadryTrainer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7609369823B0195F00C5C529 /* Build configuration list for PBXNativeTarget "JeopadryTrainer" */;
 			buildPhases = (
+				A2ABC0D611A3A7728243932E /* [CP] Check Pods Manifest.lock */,
 				7609368223B0195D00C5C529 /* Sources */,
 				7609368323B0195D00C5C529 /* Frameworks */,
 				7609368423B0195D00C5C529 /* Resources */,
+				0B385591BBA6E40ABAA38A44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +177,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B385591BBA6E40ABAA38A44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JeopadryTrainer/Pods-JeopadryTrainer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JeopadryTrainer/Pods-JeopadryTrainer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JeopadryTrainer/Pods-JeopadryTrainer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2ABC0D611A3A7728243932E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JeopadryTrainer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7609368223B0195D00C5C529 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7609368C23B0195D00C5C529 /* ViewController.swift in Sources */,
+				761C07F223B01B32001CD382 /* SceneDelegate.swift in Sources */,
+				761C07F523B01B3D001CD382 /* SplashScreenViewController.swift in Sources */,
 				7609368A23B0195D00C5C529 /* AppDelegate.swift in Sources */,
+				761C07F023B01B32001CD382 /* Clue.swift in Sources */,
+				761C07F623B01B3D001CD382 /* QuestionsViewController.swift in Sources */,
+				761C07EF23B01B32001CD382 /* Clues.swift in Sources */,
+				761C07EE23B01B32001CD382 /* Category.swift in Sources */,
+				761C07F123B01B32001CD382 /* Categories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +376,7 @@
 		};
 		7609369923B0195F00C5C529 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9866BA5F45DCA1E810BA624A /* Pods-JeopadryTrainer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +395,7 @@
 		};
 		7609369A23B0195F00C5C529 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66947B9D7BD4EBAFEE0C1039 /* Pods-JeopadryTrainer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

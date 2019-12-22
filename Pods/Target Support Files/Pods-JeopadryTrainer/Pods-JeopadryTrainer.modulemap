@@ -1,0 +1,6 @@
+framework module Pods_JeopadryTrainer {
+  umbrella header "Pods-JeopadryTrainer-umbrella.h"
+
+  export *
+  module * { export * }
+}
